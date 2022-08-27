@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+body{
+    height: 100%;
+}
+
+form{
+    background: #222;
+    width: 250px;
+    border-radius: 10px;
+    position: relative;
+    top: 250px;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+
+.display{
+    background: #ddd;
+    height: 40px;
+    text-align: right;
+    border-radius: 8px;
+    margin: 5px;
+    width: calc(100% - 30px);
+    border: none;
+    padding: 0 10px ;
+}
+
+.button{
+    float: left;
+    width: calc(100% / 4 - 6.5px);
+    background: #fff;
+    border-radius: 8px;
+    height: 36px;
+    text-align: center;
+    margin: 0 0 5px 5px;
+    border: none;
+}
+
+.button:nth-last-child(2){
+    background: yellowgreen;
+    width: calc(50% - 7px);
+}
